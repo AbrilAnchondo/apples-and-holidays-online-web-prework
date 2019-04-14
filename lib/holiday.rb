@@ -79,7 +79,7 @@ def all_holidays_with_bbq(holiday_hash)
    holiday.collect do |attribute, value|
      holiday.include? ("BBQ")
       array = []
-     puts  array.push(attribute)
+     puts  array << attribute
     end
   end 
  end
