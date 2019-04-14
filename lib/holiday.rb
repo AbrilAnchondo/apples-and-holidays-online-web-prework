@@ -78,7 +78,7 @@ def all_holidays_with_bbq(holiday_hash)
  holiday_hash.each do |season, holiday|
    holiday.each_pair do |holiday, value|
      array = []
-    if value == ["BBQ"]
+    if value = ["BBQ"]
       puts array.push(holiday.to_sym)
     end
   end 
