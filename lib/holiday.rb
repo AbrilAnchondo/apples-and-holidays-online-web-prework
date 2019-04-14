@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
  
  holiday_hash.collect do |season, holiday|
    holiday.collect do |attribute, value|
-     holiday.include? ("BBQ")
+     if holiday.include? ("BBQ")
       array = []
      puts  array << attribute
     
