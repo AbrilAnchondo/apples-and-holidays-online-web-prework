@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
      holiday.include? ("BBQ")
       array = []
      puts  array << attribute
-    end
+    
   end 
  end
 end
