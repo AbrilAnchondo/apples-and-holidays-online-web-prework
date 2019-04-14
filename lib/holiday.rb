@@ -79,9 +79,9 @@ def all_holidays_with_bbq(holiday_hash)
    holiday.collect do |attribute, value|
       if value.include? ("BBQ")
         array = []
-        array.push(attribute).flatten.compact
+        array.push(attribute)
       end
-   end
+   end.flatten.compact
   end
 end
 
