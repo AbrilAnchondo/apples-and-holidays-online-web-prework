@@ -81,7 +81,7 @@ def all_holidays_with_bbq(holiday_hash)
         array = []
         array.push(attribute)
       end
-   end.flatten
+   end.flatten(2)
    
   end
 end
