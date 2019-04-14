@@ -64,9 +64,9 @@ holiday_hash.collect do |season, holiday|
   puts "#{season.to_s.capitalize}:"
 
   holiday.collect do |attribute, value|
-    new_attribute = attribute.to_s.tr("_y", "Y").capitalize
-    new_value = value.join(", ")
-   puts "  #{new_attribute}: #{new_value}"
+    attribute = attribute.to_s.tr("_y", "Y").capitalize
+    value = value.join(", ")
+   puts "  #{attribute}: #{value}"
   end
  end
 end
